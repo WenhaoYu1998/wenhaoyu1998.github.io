@@ -43,7 +43,9 @@
               <tr>
               <td style="padding:20px;width:100%;vertical-align:middle">
                 <h2>News</h2>
-                <p>&bull; <strong>[2024.11]</strong> I am looking for a research intern on embodied AI and ML. If you have any related needs, please contact me.</p>
+                <p>&bull; <strong>[2024.11]</strong> I am looking for a research intern on embodied AI and ML. If you have any related needs, please contact me. Thank you very much!</p>
+                <p>&bull; <strong>[2024.6]</strong> A papper is accepted by IROS 2024. Looking forward to seeing you in Abu Dhabi, UAE.</p>
+                <p>&bull; <strong>[2024.1]</strong> A papper is accepted by ICRA 2024. Looking forward to seeing you in Yokohama, Japan.</p>
               </td>
             </tr>
           </tbody></table>
@@ -79,7 +81,7 @@
         Jie Peng,
         Yueliang Ying,
         Sai Li,
-        Jianmin Ji,
+        Jianmin Ji*,
         Yanyong Zhang,
         <br>
         <em>arXiv</em>, 2409.16030
@@ -96,7 +98,100 @@
       </td>
     </tr>
 
-          </tbody></table>
+    <tr onmouseout="ldp_stop()" onmouseover="ldp_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='ldp_image'><video  width=100% muted autoplay loop>
+          <source src="images/ldp/ldp.png" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/ldp/ldp.png' width=100%>
+        </div>
+        <script type="text/javascript">
+          function ldp_start() {
+            document.getElementById('ldp_image').style.opacity = "1";
+          }
+
+          function ldp_stop() {
+            document.getElementById('ldp_image').style.opacity = "0";
+          }
+          ldp_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://arxiv.org/abs/2407.01950/">
+          <span class="papertitle">LDP: A Local Diffusion Planner for Efficient Robot Navigation and Collision Avoidance</span>
+        </a>
+        <br>
+        <strong>Wenhao Yu</strong>,
+        Jie Peng,
+        Huanyu Yang,
+        Junrui Zhang,
+        Yifan Duan,
+        Jianmin Ji*,
+        Yanyong Zhang,
+        <br>
+        <em>IROS</em>, 2024
+        <br>
+        project page
+        /
+        video
+        /
+        <a href="https://arxiv.org/abs/2407.01950">arXiv</a>
+        <p></p>
+        <p>
+          Model the multi-modal expert policy distribution with multiple scenarios and preferences by diffusion model for robot navigation and collision avoidance.
+        </p>
+      </td>
+    </tr>
+
+    <tr onmouseout="pathrl_stop()" onmouseover="pathrl_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='pathrl_image'><video  width=100% muted autoplay loop>
+          <source src="images/pathrl/overview.png" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/pathrl/overview.png' width=100%>
+        </div>
+        <script type="text/javascript">
+          function pathrl_start() {
+            document.getElementById('pathrl_image').style.opacity = "1";
+          }
+
+          function pathrl_stop() {
+            document.getElementById('pathrl_image').style.opacity = "0";
+          }
+          ldp_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://arxiv.org/abs/2310.13295/">
+          <span class="papertitle">PathRL: An End-to-End Path Generation Method for Collision Avoidance via Deep Reinforcement Learning</span>
+        </a>
+        <br>
+        <strong>Wenhao Yu</strong>,
+        Jie Peng,
+        Quecheng Qiu,
+        Hanyu Wang,
+        Lu Zhang,
+        Jianmin Ji*,
+        <br>
+        <em>ICRA</em>, 2024
+        <br>
+        project page
+        /
+        video
+        /
+        <a href="https://arxiv.org/abs/2310.13295">arXiv</a>
+        <p></p>
+        <p>
+          a novel end-to-end DRL-based method, PathRL, that directly outputs navigation paths without relying on the supervised learning paradigm and iscompetent for a variety of complex scenarios.
+        </p>
+      </td>
+    </tr>
+
+  </tbody></table>
 
           
           <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>

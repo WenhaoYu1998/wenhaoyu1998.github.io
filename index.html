@@ -6,9 +6,11 @@
     <title>Wenhao Yu</title>
 
     <meta name="author" content="Wenhao Yu">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <meta name="viewport" content="width=900px, initial-scale=0.8, maximum-scale=2.0, user-scalable=yes">
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" rel="stylesheet">
     
   </head>
 
@@ -28,14 +30,51 @@
                 <p>
                   I'm broadly interested in AI for robotics and more focused on learning-based robot decision-making and planning: Robot Navigation, Autonomous Driving, and Embodied AI.
                 </p>
-                <p style="text-align:center">
+                <!-- <p style="text-align:center">
                   <a href="wenhaoyu@mail.ustc.edu.cn">Email</a> &nbsp;/&nbsp;
                   <a href="https://scholar.google.com/citations?user=x7XdmHEAAAAJ&hl=en">Scholar</a> &nbsp;/&nbsp;
                   <a href="https://github.com/WenhaoYu1998/">Github</a>
-                </p>
+                </p> -->
               </td>
-              <td style="padding:2.5%;width:40%;max-width:40%">
+              <!-- <td style="padding:2.5%;width:40%;max-width:40%">
                 <a href="images/me_self.jpg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/me_self.jpg" class="hoverZoomLink"></a>
+              </td> -->
+              <td style="padding:2.5%;width:30%;max-width:40%;min-width: 250px;">
+                <img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/me_self.jpg" class="hoverZoomLink">
+                <div style="text-align:center;margin-top:10%;" class="text-center">
+                  <a style="margin-right: 5px;" href="mailto:wenhaoyu@mail.ustc.edu.cn" class="fa-solid fa-envelope fa-xl"></a>
+                  <a style="margin-right: 5px;" href="https://github.com/WenhaoYu1998/" class="fa-brands fa-github fa-xl"></a>
+                  <a style="margin-right: 5px;" href="https://scholar.google.com/citations?user=x7XdmHEAAAAJ&hl=en" class="fas fa-graduation-cap fa-xl"></a>
+                  <a style="margin-right: 5px;" href="file/resume.pdf" class="fab fa-file fa-xl"></a>
+                  <a style="margin-right: 5px;" href="https://x.com/OaphisKvbx00iEF" class="fab fa-x-twitter fa-xl"></a>
+                  <a style="margin-right: 0px;" href="javascript:void(0)" onclick="openWeChatModal()" class="fab fa-weixin fa-xl"></a>
+                </div>
+
+                <!-- WeChat image function -->
+                <div id="WeChatModal" class="modal">
+                  <div class="modal-content">
+                    <span class="close" onclick="closeWeChatModal()">&times;</span>
+                    <img src="images/wechat.jpg" alt="WeChat QR Code" style="width: 100%;">
+                  </div>
+                </div>
+                
+                <script>
+                  function openWeChatModal() {
+                    document.getElementById("WeChatModal").style.display = "block";
+                  }
+                  function closeWeChatModal() {
+                    document.getElementById("WeChatModal").style.display = "none";
+                  }
+                  window.onload = function() {
+                    document.getElementById("WeChatModal").style.display = "none";
+                  };
+                  window.onclick = function(event) {
+                    var modal = document.getElementById("WeChatModal");
+                    if (event.target == modal) {
+                      modal.style.display = "none";
+                    }
+                  }
+                </script>
               </td>
             </tr>
           </tbody></table>

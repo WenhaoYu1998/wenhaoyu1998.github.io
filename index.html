@@ -150,7 +150,7 @@
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
           <div class="two" id='ldp_image'><video  width=100% muted autoplay loop>
-          <source src="images/ldp/ldp.png" type="video/mp4">
+          <source src="images/ldp/LDP_video.mp4" type="video/mp4">
           Your browser does not support the video tag.
           </video></div>
           <img src='images/ldp/ldp.png' width=100%>
@@ -197,7 +197,7 @@
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
           <div class="two" id='pathrl_image'><video  width=100% muted autoplay loop>
-          <source src="images/pathrl/overview.png" type="video/mp4">
+          <source src="images/pathrl/PathRL_video.mp4" type="video/mp4">
           Your browser does not support the video tag.
           </video></div>
           <img src='images/pathrl/overview.png' width=100%>
@@ -210,7 +210,7 @@
           function pathrl_stop() {
             document.getElementById('pathrl_image').style.opacity = "0";
           }
-          ldp_stop()
+          pathrl_stop()
         </script>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
@@ -241,8 +241,52 @@
 
   </tbody></table>
 
-          
           <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+            <tr>
+              <td>
+                <h2>Projects</h2>
+              </td>
+            </tr>
+          </tbody></table>
+          <table width="100%" align="center" border="0" cellpadding="20"><tbody>
+          
+            <tr onmouseout="real_stop()" onmouseover="real_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='pathrl_image'><video  width=100% muted autoplay loop>
+                  <source src="file/real_video.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video></div>
+                  <img src='file/real_video.png' width=100%>
+                </div>
+                <script type="text/javascript">
+                  function real_start() {
+                    document.getElementById('pathrl_image').style.opacity = "1";
+                  }
+        
+                  function real_stop() {
+                    document.getElementById('pathrl_image').style.opacity = "0";
+                  }
+                  real_stop()
+                </script>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="file/real_video.mp4">
+                  <span class="papertitle">Build different types of real navigation systems</span>
+                </a>
+                <br>
+                <strong>Wenhao Yu</strong>
+                <br>
+                <p></p>
+                <p>
+                  Build and deploy robot decision-making and planning systems on different types of mobile chassis, including differential chassis, Ackerman chassis, logistics vehicles, passenger cars, etc. For more details please refer to my <a href="file/resume.pdf">resume</a>.
+                </p>
+              </td>
+            </tr>        
+            
+          </tbody></table>
+          
+          <!-- <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
             <tr>
               <td>
                 <h2>Miscellanea</h2>
@@ -252,7 +296,7 @@
           <table width="100%" align="center" border="0" cellpadding="20"><tbody>
             
             
-          </tbody></table>
+          </tbody></table> -->
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
               <td style="padding:0px">
